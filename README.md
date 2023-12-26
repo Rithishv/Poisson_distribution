@@ -29,7 +29,6 @@ The Poisson distribution is the discrete probability distribution of the number 
 ![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
-```python
 import numpy as np
 import math
 import scipy.stats
@@ -45,7 +44,7 @@ for i in range (M+1):
     X.append(i)
 sf=np.sum(f)
 p=list()
-for i in range(M+1):
+for i in range(M+1):54
     p.append(f[i]/sf) 
 mean=np.inner(X,p)
 p=list();E=list();xi=list()
@@ -65,10 +64,11 @@ if cal_chi2_sq<table_chi2:
     print("The given data can be fitted in poisson Distribution at 1% LOS")
 else:
     print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
-```
+
 ## Output :
 
-![output](https://github.com/21003698/Poisson_distribution/assets/93427522/66c445f7-50f1-4749-a102-9da761ccabcd)
+![image](https://github.com/Rithishv/Poisson_distribution/assets/153974959/d49fb4c6-0d0c-4228-b22a-21f2f4b5dc65)
+
 
 # Results
 
